@@ -4,5 +4,6 @@
     <string name="app_name">UserInterface</string>
     <string name="hello_world">Hello world!aaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccc</string>
     <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
 
 </resources>

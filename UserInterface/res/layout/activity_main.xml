@@ -9,6 +9,7 @@
     tools:context="com.ggddver.userinterface.MainActivity" >
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40sp"
@@ -17,5 +18,13 @@
         android:focusable="true"
         android:focusableInTouchMode="true" 
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button" />
 
 </RelativeLayout>
