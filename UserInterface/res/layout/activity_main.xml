@@ -19,12 +19,11 @@
         android:focusableInTouchMode="true" 
         android:text="@string/hello_world" />
 
-    <Button
+    <Switch
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text"
-        android:layout_centerHorizontal="true"
-        android:text="@string/button" />
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
